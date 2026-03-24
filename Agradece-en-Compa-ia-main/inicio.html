@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inicio de sesión</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header>
+    <h1><span class="textog">A</span>GRADECE <span class="textop">EN</span> <span class="textog">C</span>OMPAÑÍA</h1>
+    <p>Comparte gratitud y fortalece la comunidad</p>
+</header>
+<main>
+    <section class="formulario">
+        <h2>Inicia sesión para continuar</h2>
+        <form action="validarinicio.php" method="POST">
+            <fieldset>
+                <label for="usuario"><b>Usuario</b></label>
+                <input type="text"name="usuario" id="usuario"placeholder="📫 usuarioejemplo01" required>
+            </fieldset>
+            <fieldset>
+                <label for="psw"><b>Contraseña: </b></label>
+                <input name="psw" type="password" id="psw" placeholder="🔐 Ingresa tu contraseña" required>
+            </fieldset>
+            <button type="submit" value="ENVIAR" id="ENVIAR">ENVIAR</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

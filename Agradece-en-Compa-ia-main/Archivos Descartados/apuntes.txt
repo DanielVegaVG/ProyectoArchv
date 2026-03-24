@@ -1,0 +1,8 @@
+En el formulario envio:
+-idAlumno que agradece
+-idAlumno a agradecer
+-Agradecimiento
+
+
+$conexion->close();
+session_destroy();

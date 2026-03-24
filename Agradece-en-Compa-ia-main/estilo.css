@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f3f1ed, #e7edf2);
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+
+header h1 {
+    color: #16518b;
+    font-size: 38px;
+    letter-spacing: 1px;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+header p {
+    color: #555;
+    margin-top: 8px;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(233, 214, 185);
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: 60px;
+    border-bottom: solid 2px rgb(204, 187, 162);
+    border-top: solid 2px rgb(204, 187, 162)
+}
+
+.menu a {
+    margin: 0 60px;
+    vertical-align: middle;
+    text-decoration: none; 
+    color: #16518b; 
+}
+.formulario {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #16518b;
+}
+
+.textog {
+    font-size: 45px;
+}
+
+.textop {
+    font-size: 30px;
+}
+select {
+  width: 200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #2b4c72;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  margin-top: 5px;
+}
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #16518b;
+    font-weight: bold;
+    font-family: "Ubuntu Mono", monospace;
+    display: block;
+}
+form textarea{
+    margin-top: 10px;
+    width: 260px;
+    height: 100px;
+    resize: none;
+    border: 2px solid #2b4c72;
+    border-radius: 4px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4fadec;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #23577a;
+}
